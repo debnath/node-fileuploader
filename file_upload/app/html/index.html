@@ -1,0 +1,14 @@
+</html>
+<header> Select an image using the form below to upload directly to Amazon S3 via this local REST API. </header>
+<br/>
+<div>
+<form id       =  "uploadForm"
+     enctype   =  "multipart/form-data"
+     action    =  "http://localhost:3000/v1/images"
+     method    =  "post"
+>
+<input type="file" name="image" />
+<input type="submit" value="Upload Image" name="submit">
+</form>
+</div>
+</html>

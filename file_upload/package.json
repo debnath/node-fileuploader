@@ -1,0 +1,11 @@
+{
+  "name": "file_upload",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.10.2",
+    "kue": "^0.9.4",
+    "multer": "~0.1.6",
+    "s3": "^4.4.0",
+    "util": "^0.10.3"
+  }
+}

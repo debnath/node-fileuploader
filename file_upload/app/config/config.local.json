@@ -1,0 +1,21 @@
+{
+	"port": 3000,
+	"uploadDir": "uploads/", 
+	"s3ClientParams": {
+	  "maxAsyncS3": 20,
+	  "s3RetryCount": 3, 
+	  "s3RetryDelay": 1000, 
+	  "multipartUploadThreshold": 20971520, 
+	  "multipartUploadSize": 15728640,
+	  "s3Options": {
+	  	"accessKeyId": "",
+	  	"secretAccessKey": ""
+		}
+	},
+	"uploadParams": {
+		"bucket": "debnath-testbucket"
+ 	},
+ 	"app": {
+      "apiVersions" : ["v1"]
+  }
+}
